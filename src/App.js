@@ -19,7 +19,7 @@ function App() {
       <GlobalStyles />
       <StyledApp>
         
-        <button className="btn" onClick={() => themeToggler()}> Change Theme </button>
+        <button className="btn" style={{cursor:'pointer'}} onClick={() => themeToggler()}> Change Theme </button>
         <h1 className="h1" style={{fontSize:'50px'}}> hello world </h1>
         <h1 className="h1"> Change background theme </h1>
         <h2 className="h1"> By Josephkagimu1 </h1>
